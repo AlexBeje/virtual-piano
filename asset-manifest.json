@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a11848e.chunk.css",
-    "main.js": "/static/js/main.490689d8.chunk.js",
-    "main.js.map": "/static/js/main.490689d8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.799e2167.js",
-    "runtime-main.js.map": "/static/js/runtime-main.799e2167.js.map",
-    "static/js/2.e3f574d1.chunk.js": "/static/js/2.e3f574d1.chunk.js",
-    "static/js/2.e3f574d1.chunk.js.map": "/static/js/2.e3f574d1.chunk.js.map",
-    "static/js/3.dcce6147.chunk.js": "/static/js/3.dcce6147.chunk.js",
-    "static/js/3.dcce6147.chunk.js.map": "/static/js/3.dcce6147.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.9a11848e.chunk.css.map": "/static/css/main.9a11848e.chunk.css.map",
-    "static/js/2.e3f574d1.chunk.js.LICENSE.txt": "/static/js/2.e3f574d1.chunk.js.LICENSE.txt"
+    "main.css": "https://alexbeje.github.io/virtual-piano/static/css/main.5ba953c2.chunk.css",
+    "main.js": "https://alexbeje.github.io/virtual-piano/static/js/main.494bb74d.chunk.js",
+    "main.js.map": "https://alexbeje.github.io/virtual-piano/static/js/main.494bb74d.chunk.js.map",
+    "runtime-main.js": "https://alexbeje.github.io/virtual-piano/static/js/runtime-main.4b18ee82.js",
+    "runtime-main.js.map": "https://alexbeje.github.io/virtual-piano/static/js/runtime-main.4b18ee82.js.map",
+    "static/js/2.d7d8558c.chunk.js": "https://alexbeje.github.io/virtual-piano/static/js/2.d7d8558c.chunk.js",
+    "static/js/2.d7d8558c.chunk.js.map": "https://alexbeje.github.io/virtual-piano/static/js/2.d7d8558c.chunk.js.map",
+    "static/js/3.dcce6147.chunk.js": "https://alexbeje.github.io/virtual-piano/static/js/3.dcce6147.chunk.js",
+    "static/js/3.dcce6147.chunk.js.map": "https://alexbeje.github.io/virtual-piano/static/js/3.dcce6147.chunk.js.map",
+    "index.html": "https://alexbeje.github.io/virtual-piano/index.html",
+    "static/css/main.5ba953c2.chunk.css.map": "https://alexbeje.github.io/virtual-piano/static/css/main.5ba953c2.chunk.css.map",
+    "static/js/2.d7d8558c.chunk.js.LICENSE.txt": "https://alexbeje.github.io/virtual-piano/static/js/2.d7d8558c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.799e2167.js",
-    "static/js/2.e3f574d1.chunk.js",
-    "static/css/main.9a11848e.chunk.css",
-    "static/js/main.490689d8.chunk.js"
+    "static/js/runtime-main.4b18ee82.js",
+    "static/js/2.d7d8558c.chunk.js",
+    "static/css/main.5ba953c2.chunk.css",
+    "static/js/main.494bb74d.chunk.js"
   ]
 }
