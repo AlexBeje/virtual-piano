@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <div className="app flex h-screen">
+    <div className="app flex h-screen bg.primary">
       <div className="m-auto text-center">
         <h1 className="app__title mb-10">VIRTUAL PIANO</h1>
         <Piano
@@ -34,14 +34,14 @@ function App() {
         <div className="flex justify-between mt-5">
           <div className="flex items-center">
             <a href="https://github.com/AlexBeje/virtual-piano">
-              <AiFillGithub className="mr-5" />
+              <AiFillGithub className="icon--hover mr-5" />
             </a>
             <a href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F1lLwlLr8TfMnZtU2nYM4P1%2Fvirtual-piano%3Fnode-id%3D0%253A1">
-              <FiFigma />
+              <FiFigma className="icon--hover" />
             </a>
           </div>
           <a href="https://www.alexbejenaru.dev">
-            <div className="flex items-center">
+            <div className="app__author flex items-center">
               <AiOutlineCopyrightCircle />
               Alexandru Bejenaru
             </div>

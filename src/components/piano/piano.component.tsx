@@ -10,20 +10,20 @@ type pianoProps = {
 
 // Styled components
 const WhiteKey = styled.button`
-  background-color: #f4f4f4;
-  width: 100px;
-  height: 300px;
-  border: 1px solid black;
-  transition: 0.3s;
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-tertiary);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 300px;
+  transition: 0.3s;
+  width: 100px;
   &:hover {
-    background-color: #e0e0e0;
+    background-color: var(--color-primary-hover);
   }
 `;
 
 // Styled components
 const BlackKey = styled.button<{ transparent?: boolean }>`
-  background-color: #0a0a0a;
+  background-color: var(--color-tertiary);
   width: ${(props) => (!props.transparent ? "50px" : "0")};
   margin-left: ${(props) => (!props.transparent ? "0" : "50px")};
   height: 200px;
@@ -35,7 +35,7 @@ const BlackKey = styled.button<{ transparent?: boolean }>`
     margin-left: 75px;
   }
   &:hover {
-    background-color: #252525;
+    background-color: var(--color-tertiary-hover);
   }
 `;
 

@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-primary: hsla(0, 0%, 95%);
+  --color-primary-hover: hsla(0, 0%, 85%);
+  --color-secondary: #2e2e2e;
+  --color-tertiary: hsla(0, 0%, 10%);
+  --color-tertiary-hover: hsla(0, 0%, 15%);
+  --color-adjcent: #17c6fe;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
 
 body {
