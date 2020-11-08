@@ -18,7 +18,6 @@ function App() {
   });
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-    console.log("👱", e.currentTarget.value);
     const audio = new Audio(`sounds/piano_${e.currentTarget.value}.mp3`);
     e.currentTarget.value && audio.play();
   };
@@ -34,13 +33,19 @@ function App() {
         />
         <div className="flex justify-between mt-5">
           <div className="flex items-center">
-            <AiFillGithub className="mr-5" />
-            <FiFigma />
+            <a href="https://github.com/AlexBeje/virtual-piano">
+              <AiFillGithub className="mr-5" />
+            </a>
+            <a href="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F1lLwlLr8TfMnZtU2nYM4P1%2Fvirtual-piano%3Fnode-id%3D0%253A1">
+              <FiFigma />
+            </a>
           </div>
-          <div className="flex items-center">
-            <AiOutlineCopyrightCircle />
-            Alexandru Bejenaru
-          </div>
+          <a href="https://www.alexbejenaru.dev">
+            <div className="flex items-center">
+              <AiOutlineCopyrightCircle />
+              Alexandru Bejenaru
+            </div>
+          </a>
         </div>
       </div>
     </div>
