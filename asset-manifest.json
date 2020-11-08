@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "https://alexbeje.github.io/virtual-piano/static/css/main.5ba953c2.chunk.css",
-    "main.js": "https://alexbeje.github.io/virtual-piano/static/js/main.77e554b7.chunk.js",
-    "main.js.map": "https://alexbeje.github.io/virtual-piano/static/js/main.77e554b7.chunk.js.map",
+    "main.css": "https://alexbeje.github.io/virtual-piano/static/css/main.0eb40cff.chunk.css",
+    "main.js": "https://alexbeje.github.io/virtual-piano/static/js/main.b6844d3a.chunk.js",
+    "main.js.map": "https://alexbeje.github.io/virtual-piano/static/js/main.b6844d3a.chunk.js.map",
     "runtime-main.js": "https://alexbeje.github.io/virtual-piano/static/js/runtime-main.8715f801.js",
     "runtime-main.js.map": "https://alexbeje.github.io/virtual-piano/static/js/runtime-main.8715f801.js.map",
     "static/js/2.08d4dfbe.chunk.js": "https://alexbeje.github.io/virtual-piano/static/js/2.08d4dfbe.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.4f142403.chunk.js": "https://alexbeje.github.io/virtual-piano/static/js/3.4f142403.chunk.js",
     "static/js/3.4f142403.chunk.js.map": "https://alexbeje.github.io/virtual-piano/static/js/3.4f142403.chunk.js.map",
     "index.html": "https://alexbeje.github.io/virtual-piano/index.html",
-    "static/css/main.5ba953c2.chunk.css.map": "https://alexbeje.github.io/virtual-piano/static/css/main.5ba953c2.chunk.css.map",
+    "static/css/main.0eb40cff.chunk.css.map": "https://alexbeje.github.io/virtual-piano/static/css/main.0eb40cff.chunk.css.map",
     "static/js/2.08d4dfbe.chunk.js.LICENSE.txt": "https://alexbeje.github.io/virtual-piano/static/js/2.08d4dfbe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8715f801.js",
     "static/js/2.08d4dfbe.chunk.js",
-    "static/css/main.5ba953c2.chunk.css",
-    "static/js/main.77e554b7.chunk.js"
+    "static/css/main.0eb40cff.chunk.css",
+    "static/js/main.b6844d3a.chunk.js"
   ]
 }
