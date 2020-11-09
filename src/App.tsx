@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="app flex h-screen bg.primary">
       <div className="app__piano--portrait app__title p-5 m-auto text-center">
-        <IoIosPhoneLandscape className="inline" /> your device or your device is
+        <IoIosPhoneLandscape className="inline" /> your device / your device is
         to small.
       </div>
       <div className="app__piano--landscape m-auto text-center">
