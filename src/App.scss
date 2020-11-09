@@ -11,6 +11,30 @@
   &__author {
     color: var(--color-adjcent);
   }
+  &__piano {
+    &--landscape {
+      display: none;
+    }
+    &--portrait {
+      display: block;
+    }
+    &--incompatible {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 736px) {
+  .app {
+    &__piano {
+      &--landscape {
+        display: block;
+      }
+      &--portrait {
+        display: none;
+      }
+    }
+  }
 }
 
 .icon--hover {

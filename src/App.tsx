@@ -7,6 +7,7 @@ import "./tailwind.output.scss";
 // Icons
 import { AiFillGithub, AiOutlineCopyrightCircle } from "react-icons/ai";
 import { FiFigma } from "react-icons/fi";
+import { IoIosPhoneLandscape } from "react-icons/io";
 
 // Components
 import Piano from "./components/piano/piano.component";
@@ -24,8 +25,12 @@ function App() {
 
   return (
     <div className="app flex h-screen bg.primary">
-      <div className="m-auto text-center">
-        <h1 className="app__title mb-10">VIRTUAL PIANO</h1>
+      <div className="app__piano--portrait app__title p-5 m-auto text-center">
+        <IoIosPhoneLandscape className="inline" /> your device or your device is
+        to small.
+      </div>
+      <div className="app__piano--landscape m-auto text-center">
+        <h1 className="app__title mb-10 hidden lg:block">VIRTUAL PIANO</h1>
         <Piano
           whitePianoKeys={pianoKeys.white}
           blackPianoKeys={pianoKeys.black}
